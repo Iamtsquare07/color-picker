@@ -1,1 +1,1 @@
-# color-picker
+# Color Picker v1.0.0
