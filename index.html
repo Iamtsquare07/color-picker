@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <title>Color Picker</title>
+    </head>
+    <body>
+        <h1>Color Picker</h1>
+        <div id="color-picker-root">
+            <h4>Pick a color</h4>
+            <div id="result-block">
+                <div class="result">
+                    <input type="text" id="color">
+                    <div id="copy"></div>
+                </div>
+            </div>
+            <div id="color-picker-container">
+                <div class="color-bar" id="color-bar-hue">
+                    <div class="color-indicator" id="hue-indicator"></div>
+                </div>
+                <div class="brightness-bar" id="color-bar-brightness">
+                    <div class="brightness-indicator" id="brightness-indicator"></div>
+                </div>
+            </div>
+            <div id="selected-color"></div>
+        </div>
+
+        <script src="./index.js"></script>
+    </body>
+</html>
